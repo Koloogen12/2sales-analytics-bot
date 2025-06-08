@@ -4,7 +4,7 @@
   "google_credentials_file": "credentials.json",
   "google_sheet_id": "1lwcmOgViDgKTY_lyMpkO3wqfMigLPo1PKZj_gyXPF64",
   "google_sheet_name": "Лист",
-  "openai_token": "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",
+  "openai_token": "",
   "openai_model": "gpt-4",
   "openai_promt_file": "promt.txt",
   "daily_export_time": "23:55",
