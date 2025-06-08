@@ -43,6 +43,7 @@ env/
 ENV/
 .venv/
 .ENV/
+.env
 
 # PyCharm
 .idea/
