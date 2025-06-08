@@ -95,7 +95,10 @@ class GPTParser:
         """
         try:
             prompt = self._get_parsing_prompt()
-            
+        
+        # ВЫВОД КЛЮЧА
+        print("OPENAI_API_KEY:", config.openai_token)
+        
             response = await self.client.chat.completions.create(
                 model=config.openai_model,
                 messages=[
