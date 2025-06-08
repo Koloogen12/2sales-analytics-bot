@@ -10,17 +10,17 @@ from typing import List, Optional
 @dataclass
 class Config:
     # Telegram
-    telegram_token: str
-    admin_chat_id: int
+    telegram_token: str = "7893115588:AAHhmTSQrtZHZWWFdYsYnazRnDpwXMNA0M0"
+    admin_chat_id: int = 889614996
     
     # OpenAI
-    openai_token: str
+    openai_token: str =  "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"
     openai_model: str = "gpt-4"
     
     # Google Sheets
-    google_credentials_file: str
-    google_sheet_id: str
-    google_sheet_name: str = "Метрики продаж"
+    google_credentials_file: str = "credentials.json"
+    google_sheet_id: str = "1lwcmOgViDgKTY_lyMpkO3wqfMigLPo1PKZj_gyXPF64"
+    google_sheet_name: str = "Лист"
     
     # Планировщик
     daily_export_time: str = "23:55"  # HH:MM
