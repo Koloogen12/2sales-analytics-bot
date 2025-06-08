@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  sales-metrics-bot:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: sales-metrics-bot
+    restart: unless-stopped
+    
+    volumes:
+      # Персистентные данные
+      - ./data:/app/data
+      - ./logs:/app/logs
+      
+      # Конфигурационные файлы
+      - ./config.json:/app/config.json:ro
+      - ./credentials.json:/app/credentials.json:ro
+    
+    environment:
+      - TZ=Europe/Moscow
+      - PYTHONPATH=/app
+    
+    # Ограничения ресурсов
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '0.5'
+        reservations:
+          memory: 256M
+          cpus: '0.2'
+    
+    # Проверка здоровья
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sqlite3; sqlite3.connect('/app/data/db.sqlite3').close()"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+# Сеть для изоляции
+networks:
+  default:
+    name: sales-metrics-network
+
+# Volumes для персистентности данных
+volumes:
+  data:
+    driver: local
+  logs:
+    driver: local
