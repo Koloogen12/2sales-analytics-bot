@@ -9,7 +9,7 @@
   "openai_promt_file": "promt.txt",
   "daily_export_time": "23:55",
   "database_url": "sqlite://db.sqlite3",
-  "debug": false
+  "debug": false,
   "google_form_id": "1FAIpQLSfWfWNabrH-QDcb3xxx_Dc_8vQgGUaz1DAPNRFrwBskbLt1gA",
   "google_scopes": [
     "https://www.googleapis.com/auth/forms.responses.readonly",
