@@ -1,7 +1,7 @@
 {
   "telegram_token": "7893115588:AAHhmTSQrtZHZWWFdYsYnazRnDpwXMNA0M0",
   "admin_chat_id": 889614996,
-  "google_credentials_file": "handlers/google_sheets/credentials.json",
+  "google_credentials_file": "credentials.json",
   "google_sheet_id": "1lwcmOgViDgKTY_lyMpkO3wqfMigLPo1PKZj_gyXPF64",
   "google_sheet_name": "Лист",
   "openai_token": "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",
