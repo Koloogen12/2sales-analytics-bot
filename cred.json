@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "wb-roman",
+  "private_key_id": "5d7d38840612f3349d5e878c3e61076437719aea",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAnwgCqrhmMTRX\nxeIMBP993zOHnkjBUH3T3hSMi2Tlj4Wc5A2pHchoCYLnALX/AKEUqTvXGMC/I+Ky\n+LcixqBxeRw85yUFsFAsN0sTWiQX+rmvjNb6zKP/TZquc0Lq20CSAvExMDBJSge9\n7lS9pcLs4w4W/Mxf5Ttfs7tOTkCP+MWVxK81d9L0vp8vJCtmpgwEGNORZj2wCBJH\nOZ5AvYj2TavXdb3k4UAAT1jHwRpjsqwtaZ1iLVAbmNiFKih2xMEKX8pBGWdaAQzx\np0NpaOUxtU67VaudIFH7HOd5rWBPwuws6Vssu5+zcimUlIvXljZY5Dk3rrCKS3X4\nH3/f13XLAgMBAAECggEACegD5vM1wZe1O/Bi5EBbjXMtuMNUtZB4sC1DPEks+rtr\nYTq/UxvDg0o977hzI7a6EhB0Eedlfk8PqSmubXzuondaku1GU6kSLnv3gfrIUW1l\nIFirc8GTi51Hn8IwxlhZVUkOc3upeBN1G3kG5awBPuKchmUg86ub5pudPfU7T8wh\n/laylPRkdUKWtEkyJiMiB4VP4rNfe0igFGVkQiWgZQcZ7iR+QNVYhESV5Cu17yDk\nPJAzNlaagArNUGBa0cwkvc4E9u/PV8Rwi9agZo2QBkyqy8DodNzUt5fmSQGPpjjI\n3G1bQwHPa/jV2X6vcOMzhcrK3/e8nQYG1epovTImGQKBgQD9l/I+NpZ5Iyb0hwel\nV8j1HavNbH3pkzmAdzHUCTI/54gyg+afHHFZQ4TUOuF9sZ8RmRtLvmJ4Sbm3+rnN\nfVfqrnHr5rrBfh8NwGNB0JcgmdU2ig6wSTPlRraRCcQKD4l372wIW+vWBJBLPbXS\nKW1FLHuReVcsGwx25n4tajkSOQKBgQDCcvcYRVQpHwXqUJ76ZJfiLU1b0X3KXBFX\nvq1k2satdL0fTa2zBMY7wiNVNkd4U4c2+GEFOmInaFmJV7B7n2Kx1F768+Naz7V2\n6VMtwAOWWSlYEzjqGphWpWPg3m9YKot6JgDl3wwjUwkS6Ws+U7BfkmPRzUIXpmCd\nxvzVeHm4IwKBgQDiYiet5DtWLsxS1Mw9jW1nbDJ3sxeAUZ6ukTmZSRBjvgR23Asg\nFVsWzdChSWMNO2h+ZEjayD3NljtGA3yk9fVrGom2hwZHP5jnRM0W7uhLASk2g+5y\n7xZ14jeOqMIqHQ6iU8kEeVLCftZ1ZMSQtczHSNuS1Vi9lfP9nOwdDMuf+QKBgAMH\ngXv6UIZXemMdIGzsNkWKySK+D8SgTJDeYpsooWHAaNXdAvDACUqTCrPgJZrlSjz7\n/57yOuc8Q/DU0eYLJKF6moQ0Wn1msQAKQIZ88FFeUDuUCRX0lhz7dKPjMz7fYs7j\nWq46HFlMiN6njkkpSp0ijbWOChKOQAEVQYkd2F+bAoGALIRjlddtnh6DyV0q+/3p\nX05unwqoRQvu6McAx3fOt3XhbVH6l/qbjBTg2W/qpvrjWCu0ApVgRsJkyaqcNITj\n9LuoyYfG0P6iPkI5xnQEOspiQ/SKtvBqV3dAdpwaAxbsey3ByWA5xMzzDJDoKs2Q\nMewkPgqGQEer8kf0avhGcRI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sales-analytics-mp@wb-roman.iam.gserviceaccount.com",
+  "client_id": "109954311973461185873",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sales-analytics-mp%40wb-roman.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
