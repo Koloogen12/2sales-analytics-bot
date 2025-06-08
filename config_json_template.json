@@ -1,12 +1,18 @@
 {
-  "telegram_token": "YOUR_TELEGRAM_BOT_TOKEN",
-  "admin_chat_id": 123456789,
-  "openai_token": "YOUR_OPENAI_API_KEY",
+  "telegram_token": "7893115588:AAHhmTSQrtZHZWWFdYsYnazRnDpwXMNA0M0",
+  "admin_chat_id": 889614996,
+  "google_credentials_file": "handlers/google_sheets/credentials.json",
+  "google_sheet_id": "1lwcmOgViDgKTY_lyMpkO3wqfMigLPo1PKZj_gyXPF64",
+  "google_sheet_name": "Лист",
+  "openai_token": "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",
   "openai_model": "gpt-4",
-  "google_credentials_file": "credentials.json",
-  "google_sheet_id": "YOUR_GOOGLE_SHEET_ID",
-  "google_sheet_name": "Метрики продаж",
+  "openai_promt_file": "promt.txt",
   "daily_export_time": "23:55",
   "database_url": "sqlite://db.sqlite3",
   "debug": false
+  "google_form_id": "1FAIpQLSfWfWNabrH-QDcb3xxx_Dc_8vQgGUaz1DAPNRFrwBskbLt1gA",
+  "google_scopes": [
+    "https://www.googleapis.com/auth/forms.responses.readonly",
+    "https://www.googleapis.com/auth/spreadsheets"
+  ]
 }
