@@ -8,6 +8,8 @@ from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from tortoise import Tortoise
+from dotenv import load_dotenv
+load_dotenv()
 
 # Импорты модулей проекта
 from config import config
