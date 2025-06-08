@@ -14,7 +14,7 @@ class Config:
     admin_chat_id: int = 889614996
     
     # OpenAI
-    openai_token: str = os.getenv("OPENAI_API_KEY")
+    openai_token: str = config.get("openai_token") or os.getenv("OPENAI_API_KEY")
     openai_model: str = "gpt-4"
     
     # Google Sheets
