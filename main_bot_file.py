@@ -11,7 +11,7 @@ from tortoise import Tortoise
 
 # Импорты модулей проекта
 from config import config
-import router
+from bot_handlers import router
 from scheduler import scheduler_service
 from notification_service import notification_service
 
